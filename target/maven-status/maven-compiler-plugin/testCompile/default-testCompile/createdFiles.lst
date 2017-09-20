@@ -1,0 +1,8 @@
+stepdefs/ProductSpecificationSD.class
+stepdefs/ProductSD.class
+stepdefs/PriceEventSD.class
+stepdefs/ProductPriceSD.class
+stepdefs/ProductCatalogSD.class
+stepdefs/ProductSpecificationTypeSD.class
+stepdefs/ProductOfferingSD.class
+stepdefs/ProductOfferingPriceSD.class
