@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = {"pretty", "html:target/destination","json:target/cucumber.json"},
+		plugin = {"pretty", "html:target/destination","json:target/destination"},
 		glue = {"stepdefs"},
 		features = {"src/test/features"})
 public class RunBddTests {}
