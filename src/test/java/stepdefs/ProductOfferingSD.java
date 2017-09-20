@@ -30,7 +30,7 @@ public class ProductOfferingSD implements En{
 	
     public ProductOfferingSD(){
     	
-    	When("^new product offering with details below added$", (DataTable dataTable) -> {
+    	When("^new product offering with detail below added$", (DataTable dataTable) -> {
     		
     		List<List<String>> data = dataTable.raw();
     		
