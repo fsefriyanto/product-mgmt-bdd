@@ -1,0 +1,1 @@
+insert into product.product(name, category, created_by, created_on, deleted) values('tes 123','component','test',now(),'f')

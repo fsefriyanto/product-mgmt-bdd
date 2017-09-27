@@ -7,35 +7,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 523819646,
+  "duration": 621136457,
   "status": "passed"
 });
 formatter.before({
-  "duration": 580436,
+  "duration": 507458,
   "status": "passed"
 });
 formatter.before({
-  "duration": 439934,
+  "duration": 373413,
   "status": "passed"
 });
 formatter.before({
-  "duration": 393328,
+  "duration": 380838,
   "status": "passed"
 });
 formatter.before({
-  "duration": 380830,
+  "duration": 387007,
   "status": "passed"
 });
 formatter.before({
-  "duration": 930003,
+  "duration": 966327,
   "status": "passed"
 });
 formatter.before({
-  "duration": 370827,
+  "duration": 398286,
   "status": "passed"
 });
 formatter.before({
-  "duration": 386169,
+  "duration": 404487,
   "status": "passed"
 });
 formatter.scenario({
@@ -81,7 +81,7 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 200751813,
+  "duration": 176762520,
   "status": "passed"
 });
 formatter.match({
@@ -98,14 +98,14 @@ formatter.match({
   "location": "PriceEventSD.java:48"
 });
 formatter.result({
-  "duration": 1185911209,
+  "duration": 1230500826,
   "status": "passed"
 });
 formatter.match({
   "location": "PriceEventSD.java:77"
 });
 formatter.result({
-  "duration": 25954558,
+  "duration": 35119019,
   "status": "passed"
 });
 formatter.uri("Product.feature");
@@ -117,35 +117,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 430903,
+  "duration": 319365,
   "status": "passed"
 });
 formatter.before({
-  "duration": 261769,
+  "duration": 238222,
   "status": "passed"
 });
 formatter.before({
-  "duration": 261228,
+  "duration": 186388,
   "status": "passed"
 });
 formatter.before({
-  "duration": 265650,
+  "duration": 187700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 252427,
+  "duration": 273692,
   "status": "passed"
 });
 formatter.before({
-  "duration": 252727,
+  "duration": 425692,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2015433,
+  "duration": 1695023,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1947462,
+  "duration": 1650131,
   "status": "passed"
 });
 formatter.scenario({
@@ -203,21 +203,21 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 680760,
+  "duration": 922457,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSD.java:33"
 });
 formatter.result({
-  "duration": 31872097,
+  "duration": 44089738,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSD.java:60"
 });
 formatter.result({
-  "duration": 984236,
+  "duration": 844794,
   "status": "passed"
 });
 formatter.uri("ProductCatalog.feature");
@@ -229,35 +229,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 421053,
+  "duration": 379463,
   "status": "passed"
 });
 formatter.before({
-  "duration": 257339,
+  "duration": 192465,
   "status": "passed"
 });
 formatter.before({
-  "duration": 217868,
+  "duration": 254612,
   "status": "passed"
 });
 formatter.before({
-  "duration": 226637,
+  "duration": 274629,
   "status": "passed"
 });
 formatter.before({
-  "duration": 292062,
+  "duration": 367325,
   "status": "passed"
 });
 formatter.before({
-  "duration": 275538,
+  "duration": 400886,
   "status": "passed"
 });
 formatter.before({
-  "duration": 298887,
+  "duration": 556914,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1527422,
+  "duration": 451973,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,22 +315,135 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 489602,
+  "duration": 477883,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductCatalogSD.java:33"
 });
 formatter.result({
-  "duration": 99124934,
+  "duration": 118766199,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductCatalogSD.java:55"
 });
 formatter.result({
-  "duration": 14477277,
+  "duration": 21360307,
   "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e doesn\u0027t match actual status code \u003c500\u003e.\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\n\tat stepdefs.ProductCatalogSD.lambda$new$1(ProductCatalogSD.java:56)\n\tat ✽.Then new product catalog is created(ProductCatalog.feature:9)\n",
+  "status": "failed"
+});
+formatter.uri("ProductOffering.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Product Offering",
+  "description": "",
+  "id": "product-offering",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 254734,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 194235,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 186894,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 300706,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 246652,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 258584,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 372982,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 578628,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Add new product offering",
+  "description": "  As a user I can add new product offering",
+  "id": "product-offering;add-new-product-offering",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 6,
+  "name": "system already initiate",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "new product offering with detail below added",
+  "rows": [
+    {
+      "cells": [
+        "category",
+        "name",
+        "description",
+        "offering_category",
+        "offering_id",
+        "price_type",
+        "price_amount",
+        "price_unit"
+      ],
+      "line": 8
+    },
+    {
+      "cells": [
+        "one_time",
+        "Wi-Fi Hub+ SSS",
+        "Compatible with nbn™ \u0026 ADSL",
+        "simple",
+        "8",
+        "one_time",
+        "100",
+        "currency"
+      ],
+      "line": 9
+    }
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "new product offering is created",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ProductSpecificationSD.java:32"
+});
+formatter.result({
+  "duration": 530620,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProductOfferingSD.java:33"
+});
+formatter.result({
+  "duration": 55105277,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProductOfferingSD.java:55"
+});
+formatter.result({
+  "duration": 1498606,
+  "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e doesn\u0027t match actual status code \u003c400\u003e.\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\n\tat stepdefs.ProductOfferingSD.lambda$1(ProductOfferingSD.java:56)\n\tat ✽.Then new product offering is created(ProductOffering.feature:11)\n",
   "status": "failed"
 });
 formatter.uri("ProductOfferingPrice.feature");
@@ -342,35 +455,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 248183,
+  "duration": 268556,
   "status": "passed"
 });
 formatter.before({
-  "duration": 191063,
+  "duration": 268927,
   "status": "passed"
 });
 formatter.before({
-  "duration": 160017,
+  "duration": 277712,
   "status": "passed"
 });
 formatter.before({
-  "duration": 156307,
+  "duration": 242024,
   "status": "passed"
 });
 formatter.before({
-  "duration": 172916,
+  "duration": 187419,
   "status": "passed"
 });
 formatter.before({
-  "duration": 165781,
+  "duration": 178808,
   "status": "passed"
 });
 formatter.before({
-  "duration": 156409,
+  "duration": 174689,
   "status": "passed"
 });
 formatter.before({
-  "duration": 152217,
+  "duration": 189630,
   "status": "passed"
 });
 formatter.scenario({
@@ -428,21 +541,21 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 312013,
+  "duration": 370290,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductOfferingPriceSD.java:33"
 });
 formatter.result({
-  "duration": 83581004,
+  "duration": 83660045,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductOfferingPriceSD.java:63"
 });
 formatter.result({
-  "duration": 744490,
+  "duration": 452386,
   "status": "passed"
 });
 formatter.uri("ProductPrice.feature");
@@ -454,35 +567,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 335211,
+  "duration": 290014,
   "status": "passed"
 });
 formatter.before({
-  "duration": 224029,
+  "duration": 150610,
   "status": "passed"
 });
 formatter.before({
-  "duration": 157491,
+  "duration": 152464,
   "status": "passed"
 });
 formatter.before({
-  "duration": 176262,
+  "duration": 154339,
   "status": "passed"
 });
 formatter.before({
-  "duration": 142198,
+  "duration": 172821,
   "status": "passed"
 });
 formatter.before({
-  "duration": 131187,
+  "duration": 309116,
   "status": "passed"
 });
 formatter.before({
-  "duration": 128710,
+  "duration": 177148,
   "status": "passed"
 });
 formatter.before({
-  "duration": 106518,
+  "duration": 165909,
   "status": "passed"
 });
 formatter.scenario({
@@ -538,21 +651,21 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 482835,
+  "duration": 383552,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductPriceSD.java:33"
 });
 formatter.result({
-  "duration": 96321961,
+  "duration": 59275693,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductPriceSD.java:65"
 });
 formatter.result({
-  "duration": 1151441,
+  "duration": 1144738,
   "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e doesn\u0027t match actual status code \u003c400\u003e.\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\n\tat stepdefs.ProductPriceSD.lambda$new$1(ProductPriceSD.java:66)\n\tat ✽.Then new product price is created(ProductPrice.feature:9)\n",
   "status": "failed"
 });
@@ -565,35 +678,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 284952,
+  "duration": 246700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 187453,
+  "duration": 170919,
   "status": "passed"
 });
 formatter.before({
-  "duration": 170252,
+  "duration": 128963,
   "status": "passed"
 });
 formatter.before({
-  "duration": 162794,
+  "duration": 121275,
   "status": "passed"
 });
 formatter.before({
-  "duration": 200101,
+  "duration": 122142,
   "status": "passed"
 });
 formatter.before({
-  "duration": 113359,
+  "duration": 121167,
   "status": "passed"
 });
 formatter.before({
-  "duration": 105636,
+  "duration": 128679,
   "status": "passed"
 });
 formatter.before({
-  "duration": 212919,
+  "duration": 133735,
   "status": "passed"
 });
 formatter.scenario({
@@ -623,7 +736,7 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 423021,
+  "duration": 366893,
   "status": "passed"
 });
 formatter.match({
@@ -648,14 +761,14 @@ formatter.match({
   "location": "ProductSpecificationSD.java:38"
 });
 formatter.result({
-  "duration": 26508236,
+  "duration": 27138984,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSpecificationSD.java:52"
 });
 formatter.result({
-  "duration": 413791,
+  "duration": 565751,
   "status": "passed"
 });
 formatter.uri("ProductSpecType.feature");
@@ -667,35 +780,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 275639,
+  "duration": 261157,
   "status": "passed"
 });
 formatter.before({
-  "duration": 250003,
+  "duration": 209701,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2208299,
+  "duration": 194849,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1012516,
+  "duration": 172919,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1293418,
+  "duration": 239854,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1391070,
+  "duration": 265821,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1926886,
+  "duration": 302273,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3142772,
+  "duration": 257993,
   "status": "passed"
 });
 formatter.scenario({
@@ -725,7 +838,7 @@ formatter.match({
   "location": "ProductSpecificationSD.java:32"
 });
 formatter.result({
-  "duration": 670030,
+  "duration": 887219,
   "status": "passed"
 });
 formatter.match({
@@ -742,14 +855,14 @@ formatter.match({
   "location": "ProductSpecificationTypeSD.java:31"
 });
 formatter.result({
-  "duration": 101738106,
+  "duration": 36993949,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSpecificationTypeSD.java:43"
 });
 formatter.result({
-  "duration": 5820992,
+  "duration": 939912,
   "status": "passed"
 });
 });

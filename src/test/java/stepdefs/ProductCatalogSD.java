@@ -34,21 +34,14 @@ public class ProductCatalogSD implements En{
     		
     		List<List<String>> data = dataTable.raw();
     		
-    		Map<String,Object> product = new HashMap<>();
-    		product.put("name", data.get(1).get(0));
-    		product.put("description", data.get(1).get(1));
+    		Map<String,Object> catalog = new HashMap<>();
+    		catalog.put("name", data.get(1).get(0));
+    		catalog.put("description", data.get(1).get(1));
     		
-    		Map<String,String> specification = new HashMap<>();
-    		specification.put("id", data.get(1).get(2));
-    		specification.put("code", data.get(1).get(3));
-    		specification.put("category", data.get(1).get(4));
-    		
-    		product.put("specification", specification);
-            
     	    response = request.given()
             .contentType(ContentType.JSON).baseUri(BASE_URL)
-            .body(product)
-            .when().post("/product/catalog/promotion").then();
+            .body(catalog)
+            .when().post("/product/catalog").then();
     	    
     	});
 
