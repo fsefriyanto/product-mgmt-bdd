@@ -10,4 +10,4 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty","json:target/cucumber.json"},
 		glue = {"stepdefs"},
 		features = {"src/test/features"})
-public class RunBddIT {}
+public class RunnerIT {}

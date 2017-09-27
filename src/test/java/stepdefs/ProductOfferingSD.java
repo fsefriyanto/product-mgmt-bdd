@@ -34,20 +34,15 @@ public class ProductOfferingSD implements En{
     		
     		List<List<String>> data = dataTable.raw();
     		
-    		Map<String,Object> product = new HashMap<>();
-    		product.put("name", data.get(1).get(0));
-    		product.put("description", data.get(1).get(1));
+    		Map<String,Object> productOffering = new HashMap<>();
+    		productOffering.put("category", data.get(1).get(0));
+    		productOffering.put("name", data.get(1).get(1));
+    		productOffering.put("displayName", data.get(1).get(2));
+    		productOffering.put("description", data.get(1).get(3));
     		
-    		Map<String,String> specification = new HashMap<>();
-    		specification.put("id", data.get(1).get(2));
-    		specification.put("code", data.get(1).get(3));
-    		specification.put("category", data.get(1).get(4));
-    		
-    		product.put("specification", specification);
-            
     	    response = request.given()
             .contentType(ContentType.JSON).baseUri(BASE_URL)
-            .body(product)
+            .body(productOffering)
             .when().post("/product/offering").then();
     	    
     	});
