@@ -1,11 +1,13 @@
 package stepdefs;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.http.HttpStatus;
 
-import cucumber.api.PendingException;
+import cucumber.api.DataTable;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java8.En;
@@ -35,13 +37,24 @@ public class ProductSpecificationSD implements En{
             .baseUri(BASE_URL);
     	});
 
-    	When("^new product specification with code \"([^\"]*)\" display name \"([^\"]*)\" description \"([^\"]*)\" category \"([^\"]*)\" added$", (String code, String displayName, String description, String category) -> {
-    	    
-    		Map<String,String> prodSpec = new HashMap<>();
-    		prodSpec.put("code", code);
-    		prodSpec.put("displayName", displayName);
-    		prodSpec.put("description", description);
-    		prodSpec.put("category", category);
+    	When("^user add new product specification with following detail$", (DataTable dataTable) -> {
+    		List<List<String>> data = dataTable.raw();
+    		
+    		Map<String,Object> prodSpec = new HashMap<>();
+    		prodSpec.put("code", data.get(0).get(1));
+    		prodSpec.put("displayName", data.get(1).get(1));
+    		prodSpec.put("description", data.get(2).get(1));
+    		prodSpec.put("category", data.get(3).get(1));
+    		
+    		Map<String, String> type = new HashMap<>();
+    		type.put("id",data.get(4).get(1) );
+    		type.put("code", data.get(5).get(1));
+    		type.put("displayName", data.get(6).get(1));
+    		
+    		List types = new ArrayList<>();
+    		types.add(type);
+    		
+    		prodSpec.put("types", types);
             
     	    response = request.given()
             .contentType(ContentType.JSON)

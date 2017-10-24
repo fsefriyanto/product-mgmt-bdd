@@ -3,7 +3,13 @@ Feature: Product Offering Price
 	Scenario: Add new product offering price
 		Given system already initiate
 		When new product offering price with detail below added
-		|category |name          |description                  |offering_category|offering_id|price_type|price_amount|price_unit|
-		|one_time |Wi-Fi Hub+ SSS|Compatible with nbn™ & ADSL  |simple           |8          |one_time  |100         |currency  |
+		|category      |one_time                   |
+		|name          |Wi-Fi Hub+ SSS             |          
+		|description   |Compatible with nbn™ & ADSL|                  
+		|offerCategory |simple                     |
+		|offerId       |8                          |
+		|priceType     |one_time                   |
+		|priceAmount   |100                        |
+		|priceUnit     |currency                   |
 		
 		Then new product offering price is created

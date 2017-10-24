@@ -1,9 +1,8 @@
-stepdefs/ProductSpecificationSD.class
-stepdefs/ProductSD.class
 stepdefs/PriceEventSD.class
-options/RunBddIT.class
-stepdefs/ProductPriceSD.class
-stepdefs/ProductCatalogSD.class
 stepdefs/ProductSpecificationTypeSD.class
 stepdefs/ProductOfferingSD.class
 stepdefs/ProductOfferingPriceSD.class
+stepdefs/ProductSpecificationSD.class
+stepdefs/ProductSD.class
+stepdefs/ProductPriceSD.class
+stepdefs/ProductCatalogSD.class
